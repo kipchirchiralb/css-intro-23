@@ -1,0 +1,35 @@
+body {
+  background-color: aquamarine;
+}
+/* .simple-selector {
+  font-weight: bold;
+}
+.selector {
+  color: red;
+}
+.sub-title {
+  background-color: white;
+}
+#atribute-selector {
+  color: blueviolet;
+  font-size: 26px;
+}
+* {
+  color: grey;
+}
+.selector,
+p,
+a {
+  font-weight: 900;
+  background-color: blue;
+} */
+ul h3 {
+  color: yellow;
+}
+ul > h3 {
+  color: brown;
+}
+input[name="username"] {
+  padding: 30px;
+  background-color: green;
+}
