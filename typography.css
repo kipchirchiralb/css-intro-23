@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Mynerve&family=Roboto:wght@400;500&display=swap");
+
+/* Download the font and use the @font-face rule to import the font and use it*/
+
+html {
+  font-size: 10px;
+}
+body {
+  background-color: beige;
+  font-family: "Mynerve", "Roboto", "sans-serif";
+  font-weight: bolder;
+  font-style: italic;
+  text-align: right;
+  text-decoration: none;
+  color: blueviolet;
+}
+/* em/% units are relative to the parent element */
+p {
+  font-size: 2em;
+  line-height: 40px;
+  letter-spacing: 3px;
+  word-spacing: 100px;
+  width: 700px;
+  overflow: auto;
+}
+div {
+  color: aqua;
+  font-size: 20px;
+}
+span {
+  font-size: 0.5em;
+}
+/* rem units are relative to the root/html element*/
+span {
+  font-size: 2rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+a {
+  font-size: 40px;
+  text-decoration: none;
+  /* color: inherit; */
+  background-color: green;
+  display: inline-block;
+  width: 1000px;
+}

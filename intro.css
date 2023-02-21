@@ -1,5 +1,7 @@
 body {
   background-color: aquamarine;
+  font-family: sans-serif;
+  color: white;
 }
 /* .simple-selector {
   font-weight: bold;
@@ -33,3 +35,23 @@ input[name="username"] {
   padding: 30px;
   background-color: green;
 }
+#paragraph {
+  font-weight: bold;
+  background-color: red;
+  color: blue;
+}
+
+.sentence {
+  background-color: yellow;
+}
+/* ORDER OF SPECIFICITY */
+
+/****** considering where you've written your css ****/
+/* 1 - inline css */
+/* 2 - internal css  */
+/* 3 - external css ------- */
+
+/* ******** considering the selector used  *********/
+/* 1 - id selector */
+/* 2 - class sector ----- */
+/* 3 - element sector */
